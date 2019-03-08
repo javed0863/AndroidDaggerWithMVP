@@ -9,7 +9,6 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-//@Singleton
 public class AppModule {
 
     @Provides

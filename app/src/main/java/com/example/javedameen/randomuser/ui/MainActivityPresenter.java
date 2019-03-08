@@ -3,18 +3,13 @@ package com.example.javedameen.randomuser.ui;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.example.javedameen.randomuser.R;
 import com.example.javedameen.randomuser.model.RandomUsers;
 import com.example.javedameen.randomuser.network.ApiService;
 
 import javax.inject.Inject;
 
 import io.reactivex.Observer;
-import io.reactivex.Scheduler;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;

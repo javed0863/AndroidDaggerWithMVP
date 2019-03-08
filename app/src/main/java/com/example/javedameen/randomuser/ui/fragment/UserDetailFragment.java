@@ -104,8 +104,8 @@ public class UserDetailFragment extends DaggerFragment implements UserDetailFrag
     }
 
     @Override
-    public void loadData(String javed) {
-        Log.d("Javed", "Fragment Loaded by "+javed);
+    public void loadData(String arg) {
+        Log.d("Javed", "Fragment Loaded by "+arg);
     }
 
     /**

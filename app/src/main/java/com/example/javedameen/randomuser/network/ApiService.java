@@ -2,10 +2,9 @@ package com.example.javedameen.randomuser.network;
 
 import com.example.javedameen.randomuser.model.RandomUsers;
 
-import retrofit2.Call;
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import io.reactivex.Observable;
 
 
 public interface ApiService {

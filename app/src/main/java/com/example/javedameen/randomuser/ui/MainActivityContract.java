@@ -1,7 +1,5 @@
 package com.example.javedameen.randomuser.ui;
 
-import android.app.ProgressDialog;
-
 import com.example.javedameen.randomuser.model.RandomUsers;
 
 public interface MainActivityContract {

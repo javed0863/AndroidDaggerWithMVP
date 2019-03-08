@@ -4,12 +4,9 @@ import android.content.Context;
 
 import com.example.javedameen.randomuser.MainActivity;
 import com.example.javedameen.randomuser.network.ApiService;
-import com.example.javedameen.randomuser.ui.fragment.UserDetailFragment;
-import com.example.javedameen.randomuser.ui.fragment.UserFragmentModule;
 
 import dagger.Module;
 import dagger.Provides;
-import dagger.android.ContributesAndroidInjector;
 
 @Module
 public class MainActivityModule {

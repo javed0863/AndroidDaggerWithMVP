@@ -1,7 +1,5 @@
 package com.example.javedameen.randomuser.ui.fragment;
 
-import com.example.javedameen.randomuser.ui.fragment.UserDetailFragmentContract.Presenter;
-
 import javax.inject.Inject;
 
 public class UserDetailFragmentpresenter implements UserDetailFragmentContract.Presenter {
@@ -15,6 +13,6 @@ public class UserDetailFragmentpresenter implements UserDetailFragmentContract.P
 
     @Override
     public void getData() {
-        mView.loadData("Javed");
+        mView.loadData("Hello World");
     }
 }

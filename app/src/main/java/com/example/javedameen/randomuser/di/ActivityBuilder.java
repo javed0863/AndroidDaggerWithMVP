@@ -15,7 +15,4 @@ public abstract class ActivityBuilder {
     abstract MainActivity bindMainActivity();
 
 
-//    @ContributesAndroidInjector(modules = {DetailActivityModule.class, DetailFragmentProvider.class})
-//    abstract DetailActivity bindDetailActivity();
-
 }
